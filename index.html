@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3D shapes</title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script> 
+    </head>
+    <body>
+<a-scene background="color:#0b0b87">
+    <a-sky src="Planates.jpg"></a-sky>
+<a-assests>
+
+<img src="DOS.jpg" id="img-stone">
+<img src="TRES.jpg" id="img-snowmam">
+<img src="UNO.jpg" id="img-emerald">
+
+</a-assests>
+
+<a-curvedimage src="#img-snowmam" position="0 1 0" height="3"></a-curvedimage>
+<a-curvedimage src="#img-stone" position="-1 1 2" height="2" radius="1.5" theta-start="110" theta-length="75"></a-curvedimage>
+<a-curvedimage src="#img-emerald" position="-6 1 2" height="4" radius="2" theta-start="70" theta-length="75"></a-curvedimage>
+
+</a-scene>
+    </body> 
+</html>
